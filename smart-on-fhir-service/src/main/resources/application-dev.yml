@@ -1,0 +1,10 @@
+spring:
+  profiles:
+    active: r4
+
+home:
+  clientId: 050a1bb8-5927-4600-9654-c454f8e510e6
+  scope: launch patient/*.read
+  redirectUri: https://smart-on-fhir.doceree.com/redirect
+  clientSecret: 8GqMAHT8sr3xCqbr1knap3Y89KILMf9WMzkMnBfAhl98OTax9uFnOsp7QoFeK1bFGJwRGQu+pJrpe+P09d2YLg==
+  appEntryPoint: https://smart-on-fhir.doceree.com/welcome
